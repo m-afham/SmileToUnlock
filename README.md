@@ -1,5 +1,5 @@
 <div align="center">
-  <img width="100" src="https://user-images.githubusercontent.com/35783310/182448205-a5af8cbc-0c3a-40ee-b0eb-7f57cc4ddc1b.png" alt="Icon" /> <br>
+  <img width="100" src="https://user-images.githubusercontent.com/35783310/182454335-fbb17362-2e45-4fb1-a673-5d54c828313f.png" alt="Icon" /> <br>
   SmileFaceUnlock <br>  <br>
 
 ![GitHub top language](https://img.shields.io/github/languages/top/m-afham/SmileToUnlock?color=yellow)
