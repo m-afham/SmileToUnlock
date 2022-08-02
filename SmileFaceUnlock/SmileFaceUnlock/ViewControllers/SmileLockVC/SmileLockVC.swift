@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  SmileTracker
 //
-//  Created by Muhammad Afham, Jake on 31/07/22.
+//  Created by Muhammad Afham on 31/07/22.
 //  Copyright © 2022 Muhammad Afham. All rights reserved.
 //
 
