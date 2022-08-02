@@ -3,7 +3,7 @@
 //  SmileTracker
 //
 //  Created by Muhammad Afham on 7/31/22.
-//  Copyright © 2022 Shelley, Jake. All rights reserved.
+//  Copyright © 2022 Muhammad Afham. All rights reserved.
 //
 
 import Foundation
