@@ -1,6 +1,6 @@
 <div align="center">
   <img width="100" src="https://user-images.githubusercontent.com/35783310/182454335-fbb17362-2e45-4fb1-a673-5d54c828313f.png" alt="Icon" /> <br>
-  SmileFaceUnlock <br>  <br>
+  Smile Face Unlock <br>  <br>
 
 ![GitHub top language](https://img.shields.io/github/languages/top/m-afham/SmileToUnlock?color=red)
 ![Platform](https://img.shields.io/cocoapods/p/ios?color=red)
