@@ -27,7 +27,10 @@ A screen that unlocks itself when you smile.
 
 To show, write this line anywhere in your view controller
 ```Swift
- SmileLockVC.present(callingVC: self)
+override func viewDidLoad() {
+     super.viewDidLoad()
+     SmileLockVC.present(callingVC: self)
+}
  ```
 
 
