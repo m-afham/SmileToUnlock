@@ -2,8 +2,8 @@
 //  ViewController.swift
 //  SmileTracker
 //
-//  Created by Shelley, Jake on 11/1/18.
-//  Copyright © 2018 Shelley, Jake. All rights reserved.
+//  Created by Muhammad Afham, Jake on 31/07/22.
+//  Copyright © 2022 Muhammad Afham. All rights reserved.
 //
 
 import UIKit
