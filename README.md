@@ -25,7 +25,7 @@ A screen that unlocks itself when you smile.
 - Download the zip file, and copy and paste the "SmileLockVC" folder into your project. 
 - You need to install the Lottie-ios ( https://github.com/airbnb/lottie-ios.git )  package to run animations.  
 
-```Ruby
+```Swift
  SmileLockVC.present(callingVC: self)
  ```
 
