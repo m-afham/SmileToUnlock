@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Smile LockVC-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController storyboardIdentifier="SmileLockVC" id="BYZ-38-t0r" customClass="SmileLockVC" customModule="SmileFaceUnlock" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="g5h-34-HAG" customClass="AnimationView" customModule="Lottie">
+                                <rect key="frame" x="72.5" y="218.5" width="230" height="230"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="230" id="btB-q5-PBs"/>
+                                    <constraint firstAttribute="width" secondItem="g5h-34-HAG" secondAttribute="height" multiplier="1:1" id="i1M-ma-NAs"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="animationName" value="unlock_animation"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bB5-pn-utD" customClass="AnimationView" customModule="Lottie">
+                                <rect key="frame" x="72.5" y="218.5" width="230" height="230"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="230" id="NcP-yv-DOh"/>
+                                    <constraint firstAttribute="width" secondItem="bB5-pn-utD" secondAttribute="height" multiplier="1:1" id="VfK-lC-W1m"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="animationName" value="smiling_animation"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Please Smile to Unlock" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q5b-25-rmb">
+                                <rect key="frame" x="84" y="493" width="207" height="24"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" name="peachColor"/>
+                        <constraints>
+                            <constraint firstItem="g5h-34-HAG" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="AdK-mR-dcd"/>
+                            <constraint firstItem="Q5b-25-rmb" firstAttribute="top" secondItem="bB5-pn-utD" secondAttribute="bottom" constant="44.5" id="QED-LW-gSB"/>
+                            <constraint firstItem="Q5b-25-rmb" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="cvH-eK-gcr"/>
+                            <constraint firstItem="g5h-34-HAG" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="gDO-Rd-90C"/>
+                            <constraint firstItem="bB5-pn-utD" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="zfv-js-Oef"/>
+                            <constraint firstItem="bB5-pn-utD" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="zwH-bd-kBU"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="constraintUnlockViewWidth" destination="btB-q5-PBs" id="DPt-o2-faQ"/>
+                        <outlet property="labelUnlock" destination="Q5b-25-rmb" id="d87-hi-1mU"/>
+                        <outlet property="viewSmilingAnimation" destination="bB5-pn-utD" id="0Xp-GJ-46v"/>
+                        <outlet property="viewUnlockAnimation" destination="g5h-34-HAG" id="vx8-Uh-Bhw"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="133.5832083958021"/>
+        </scene>
+    </scenes>
+    <resources>
+        <namedColor name="peachColor">
+            <color red="1" green="0.89800000190734863" blue="0.70599997043609619" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>
