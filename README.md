@@ -8,15 +8,25 @@
 A screen that unlocks itself when you smile.
 </div>
 
-## How its build?
-- ARKit with "ARFaceTrackingConfiguration" to detect smile using front camera
-- lottie-ios for animations
+## Requirements
+
+- iOS 11.0+
+- Swift 4+
+
+## How it is built?
+
+- ARKit with "ARFaceTrackingConfiguration" to detect smiles using the front camera
+- Lottie-ios for animations
 - UIImpactFeedbackGenerator for haptic feedback
 - UIView animations and transitions for better UX
 
 ## Usage
-- Download the zip file, copy and paste "SmileLockVC" folder into your project. 
-- You need to install Lottie-ios ( https://github.com/airbnb/lottie-ios.git )  package in order to run animations.  
 
-## Video Demo.
+- Download the zip file, and copy and paste the "SmileLockVC" folder into your project. 
+- You need to install the Lottie-ios ( https://github.com/airbnb/lottie-ios.git )  package to run animations.  
+
+```Ruby
+ SmileLockVC.present(callingVC: self)
+ ```
+
 
