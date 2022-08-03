@@ -32,5 +32,7 @@ override func viewDidLoad() {
      SmileLockVC.present(callingVC: self)
 }
  ```
+## Demo
+![SmileFaceUnlock](https://user-images.githubusercontent.com/35783310/182703081-c843d480-ca30-4c83-b5b9-295a642bd264.gif)
 
 
